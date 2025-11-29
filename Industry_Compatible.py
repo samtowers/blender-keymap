@@ -14,7 +14,7 @@ keyconfig_data = \
     ("wm.search_menu", {"type": 'TAB', "value": 'PRESS'}, None),
     ("view3d.cursor3d", {"type": 'RIGHTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("transform.translate",
-     {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "shift": True},
+     {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("cursor_transform", True),
        ("release_confirm", True),
@@ -30,7 +30,7 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.rotate", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
+    ("view3d.rotate", {"type": 'RIGHTMOUSE', "value": 'PRESS'}, None),
     ("view3d.view_pan",
      {"type": 'WHEELLEFTMOUSE', "value": 'PRESS'},
      {"properties":
